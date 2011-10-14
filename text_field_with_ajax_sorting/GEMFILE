@@ -1,0 +1,9 @@
+source :rubygems
+
+group :develoment, :test do
+  gem 'rspec'
+  gem 'cucumber'
+  gem 'selenium-webdriver'
+  gem 'watir-webdriver'
+  gem 'watir', :platforms => [:mingw, :mswin]
+end
